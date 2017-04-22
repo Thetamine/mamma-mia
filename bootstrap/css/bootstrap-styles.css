@@ -1,3 +1,25 @@
+a,
+a:visited {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.alignment-middle {
+  vertical-align: middle;
+  padding-right: 5px;
+
+}
+
+.btn-danger {
+  background-color: rgba(190, 30, 45, 1);
+}
+
 .carousel-item {
   /*position: relative;*/
   /*display: none; error is somewhere in these two lines of code. */
@@ -46,11 +68,16 @@
   padding-right: .2em;
 }
 
-.social-links {
-  color: #C21413;
+.social-links,
+.social-links:active,
+.social-links:visited,
+.social-links:link {
+  color: rgba(190, 30, 45, 1);
+  text-decoration: none;
 }
 
+
 .social-links:hover {
-  color: #820D0D;
+  color: rgba(183, 32, 46, 1);
   text-decoration: none;
 }
