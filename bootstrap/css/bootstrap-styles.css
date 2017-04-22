@@ -20,6 +20,10 @@ a:active {
   background-color: rgba(190, 30, 45, 1);
 }
 
+#bodySection {
+    padding: 20px;
+}
+
 .carousel-item {
   /*position: relative;*/
   /*display: none; error is somewhere in these two lines of code. */
